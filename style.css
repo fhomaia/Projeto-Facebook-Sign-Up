@@ -19,7 +19,8 @@
 
 /* Requisito 2 */
 .facebook-logo {
-  margin-bottom: 5px;
+  margin-top: 13px;
+  margin-left: 11%;
 }
 
 /* Requisito 3 */
@@ -27,6 +28,8 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-top: 5px;
+  margin-right: 14%;
 }
 
 .form-group {
@@ -46,7 +49,7 @@
 .form-control {
   display: flex;
   align-self: flex-end;
-  margin-bottom: 32px;
+  margin-bottom: 27px;
 }
 
 .form-control button {
@@ -54,10 +57,16 @@
   border: 1px solid;
   border-color: rgb(41, 72, 125);
   color: white;
+  padding:3px 5px;
   font-weight: 800;
   font-size: 12px;
-  height: 19px;
-  width: 49px;
+}
+
+.form-control button:hover {
+  background-color:#007bff7c;
+  border: 1px solid;
+  border-color: rgb(41, 72, 125);
+  cursor: pointer;
 }
 
 a {

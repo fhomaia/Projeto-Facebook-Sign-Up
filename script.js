@@ -42,6 +42,7 @@ function createInputGenrer() {
       const inputPersonal = document.createElement('input');
       inputPersonal.placeholder = 'Gênero (opcional)';
       inputPersonal.type = 'text';
+      inputPersonal.className = 'data';
       inputPersonal.id = 'inputP';
       inputPersonal.name = 'gender-custom';
       localGenderPersonal.appendChild(inputPersonal);
