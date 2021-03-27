@@ -96,12 +96,13 @@ function addgender() {
 
 function removeform() {
   const rightcontent = document.getElementsByClassName('right-content')[0];
+  const header = document.getElementById('right-content-header')
   const form = document.getElementById('subscription');
   const quickeasy = document.getElementsByClassName('quick-easy')[0];
   const title = rightcontent.getElementsByTagName('h1')[0];
   rightcontent.removeChild(form);
-  rightcontent.removeChild(quickeasy);
-  rightcontent.removeChild(title);
+  header.removeChild(quickeasy);
+  header.removeChild(title);
 }
 
 function alertmissing() {
