@@ -54,7 +54,7 @@
   border: 1px solid;
   border-color: rgb(41, 72, 125);
   color: white;
-  font-weight: bold;
+  font-weight: 900;
   font-size: 12px;
   height: 19px;
   width: 49px;
@@ -132,7 +132,7 @@ a:hover {
 
 h1 {
   font-size: 36px;
-  color:  #333;
+  color: #333;
   font-weight: 600;
 }
 
